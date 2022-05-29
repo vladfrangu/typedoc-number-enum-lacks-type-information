@@ -1,0 +1,347 @@
+{
+	"id": 0,
+	"name": "@vladfrangu/typedoc-number-enum-lacks-type-information",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"originalName": "",
+	"children": [
+		{
+			"id": 7,
+			"name": "AutomaticNumberEnum",
+			"kind": 8,
+			"kindString": "Enumeration",
+			"flags": {},
+			"children": [
+				{
+					"id": 9,
+					"name": "AnotherConstant",
+					"kind": 16,
+					"kindString": "Enumeration member",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "enums.ts",
+							"line": 13,
+							"character": 1
+						}
+					],
+					"defaultValue": "1"
+				},
+				{
+					"id": 8,
+					"name": "Constant",
+					"kind": 16,
+					"kindString": "Enumeration member",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "enums.ts",
+							"line": 12,
+							"character": 1
+						}
+					],
+					"defaultValue": "0"
+				}
+			],
+			"groups": [
+				{
+					"title": "Enumeration members",
+					"kind": 16,
+					"children": [
+						9,
+						8
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "enums.ts",
+					"line": 11,
+					"character": 12
+				}
+			]
+		},
+		{
+			"id": 4,
+			"name": "ConstantNumberEnum",
+			"kind": 8,
+			"kindString": "Enumeration",
+			"flags": {},
+			"children": [
+				{
+					"id": 6,
+					"name": "AnotherConstant",
+					"kind": 16,
+					"kindString": "Enumeration member",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "enums.ts",
+							"line": 8,
+							"character": 1
+						}
+					],
+					"defaultValue": "2"
+				},
+				{
+					"id": 5,
+					"name": "Constant",
+					"kind": 16,
+					"kindString": "Enumeration member",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "enums.ts",
+							"line": 7,
+							"character": 1
+						}
+					],
+					"defaultValue": "1"
+				}
+			],
+			"groups": [
+				{
+					"title": "Enumeration members",
+					"kind": 16,
+					"children": [
+						6,
+						5
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "enums.ts",
+					"line": 6,
+					"character": 12
+				}
+			]
+		},
+		{
+			"id": 1,
+			"name": "StringEnum",
+			"kind": 8,
+			"kindString": "Enumeration",
+			"flags": {},
+			"children": [
+				{
+					"id": 3,
+					"name": "AnotherConstant",
+					"kind": 16,
+					"kindString": "Enumeration member",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "enums.ts",
+							"line": 3,
+							"character": 1
+						}
+					],
+					"defaultValue": "\"B\""
+				},
+				{
+					"id": 2,
+					"name": "Constant",
+					"kind": 16,
+					"kindString": "Enumeration member",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "enums.ts",
+							"line": 2,
+							"character": 1
+						}
+					],
+					"defaultValue": "\"A\""
+				}
+			],
+			"groups": [
+				{
+					"title": "Enumeration members",
+					"kind": 16,
+					"children": [
+						3,
+						2
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "enums.ts",
+					"line": 1,
+					"character": 12
+				}
+			]
+		},
+		{
+			"id": 10,
+			"name": "Example",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 12,
+					"name": "anotherConstant",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "enums.ts",
+							"line": 18,
+							"character": 1
+						}
+					],
+					"type": {
+						"type": "reference",
+						"id": 4,
+						"name": "ConstantNumberEnum"
+					}
+				},
+				{
+					"id": 15,
+					"name": "anotherConstant2",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "enums.ts",
+							"line": 22,
+							"character": 1
+						}
+					],
+					"type": {
+						"type": "reference",
+						"id": 6,
+						"name": "AnotherConstant"
+					}
+				},
+				{
+					"id": 13,
+					"name": "automatic",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "enums.ts",
+							"line": 19,
+							"character": 1
+						}
+					],
+					"type": {
+						"type": "reference",
+						"id": 7,
+						"name": "AutomaticNumberEnum"
+					}
+				},
+				{
+					"id": 16,
+					"name": "automatic2",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "enums.ts",
+							"line": 23,
+							"character": 1
+						}
+					],
+					"type": {
+						"type": "reference",
+						"id": 8,
+						"name": "Constant"
+					}
+				},
+				{
+					"id": 11,
+					"name": "constant",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "enums.ts",
+							"line": 17,
+							"character": 1
+						}
+					],
+					"type": {
+						"type": "reference",
+						"id": 1,
+						"name": "StringEnum"
+					}
+				},
+				{
+					"id": 14,
+					"name": "constant2",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "enums.ts",
+							"line": 21,
+							"character": 1
+						}
+					],
+					"type": {
+						"type": "reference",
+						"id": 2,
+						"name": "Constant"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						12,
+						15,
+						13,
+						16,
+						11,
+						14
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "enums.ts",
+					"line": 16,
+					"character": 17
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Enumerations",
+			"kind": 8,
+			"children": [
+				7,
+				4,
+				1
+			]
+		},
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				10
+			]
+		}
+	],
+	"sources": [
+		{
+			"fileName": "enums.ts",
+			"line": 1,
+			"character": 0
+		}
+	]
+}
